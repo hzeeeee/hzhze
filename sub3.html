@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="slide.css">
+<title></title>
+<style>
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  a:link {
+    text-decoration: none;
+    color:#f7543e;
+  }
+  a:visited {
+    text-decoration: none;
+    color:#f7543e;
+  }
+  a:hover {
+    text-decoration: none;
+    color:black;
+  }
+  a:active {
+    text-decoration: none;
+    color: #f7543e;
+  }
+
+  body {
+  font-family: 'NanumSquare'
+    font-size: 14px;
+    background-color:black;
+    linear-gradient(red, blue);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  .clear {
+    clear: both;
+  }
+  header{
+      width: 1140px;
+      height: 100px;
+      margin: 0 auto;
+
+  }
+  #logo{
+      float: left;
+      margin: 20px 0 0 45px;
+
+  }
+  #menus{
+      float: right;
+      margin-left: 17px;
+
+  }
+  #top_menu{
+      text-align: left;
+      margin-top: 20px;
+
+  }
+  #main_menu{
+      margin-top: 16px;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 15.5px;
+
+  }
+  #main_menu li{
+      display: inline;
+      margin-left: 114px;
+  }
+body{
+    -ms-overflow-style: none;
+    font-family: 'NanumSquare'"
+}
+body::-webkit-scrollbar {
+    display: none;
+    font-family: 'NanumSquare'
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+ul {
+    list-style-type: none;
+}
+body {background-color: white;
+    font-size : 100%;
+    height: 100%;
+    color: black;
+    font-family: 'NanumSquare'
+}
+.clear {
+  clear: both;
+}
+
+[class*="c_"] {
+    float: left;
+}
+
+  /*컴퓨터*/
+@media only screen and (min-width: 780px) {
+    .c_m_9 {width: 80%;}/*영상메인*/
+    .c_m_10 {width: 10%; }/*영상 좌우 마진*/
+
+    .c_m_11 {width: 50%; float:left; padding-top: 50px;
+          text-align: center; line-height: 170%;}/*간단설명 메인*/
+    .c_m_12 {width: 25%; float:left; padding: 15px; height: 30vh;}/*간단설명 왼/오*/
+
+    .c_m_7 { width: 80%; float: left; margin-top: -20px;}/*가로이미지*/
+    .c_m_8 {width: 10%; float: left; padding: 15px;}/*가로 이미지 좌우마진*/
+
+    .c_m_4 {width: 45%;
+            float:left; padding-top: 80px; padding-right: 40px;
+            text-align: right;
+            height: 15vh;
+            display: flex;
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            flex-direction: column;}/*우측 콘텐츠 텍스트*/
+    .c_m_5 {width: 45%; float:left; padding-top: 100px;}/*우측 콘텐츠 이미지*/
+    .c_m_6 {width: 10%; float:left; padding: 15px;}/*우측 콘텐츠 좌우마진*/
+
+    .c_m_1 {width: 35%; float:center; padding-top: 20px;}/*좌측 콘텐츠 이미지*/
+    .c_m_2 {width: 75%;
+            float:center;  padding-top: -35px; padding-left: 300px;
+            text-align: center;
+            height: 15vh;
+            display: flex;
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            flex-direction: column;}/*좌측 콘텐츠 텍스트*/
+    .c_m_3 {width: 10%; float:left; padding: 15px;}/*좌측 콘텐츠 좌우마진*/
+
+    .c_m_13 { width:24%; float:left; margin-top: 40px; padding-left: 10px; margin-bottom: 3%;}/*이미지 슬라이드*/
+    .c_m_13:hover { opacity: 0.8;}
+    .c_m_14 { width: 2%; float:left; margin-top: 40px;}/*이미지 슬라이드 좌우 마진*/
+    .c_m_20 { width: 100%;}
+  }
+
+.c1 {width: 44%; float:left; padding: 35px; height: 15vh;}/*제목*/
+.c2 {width: 28%; float:left; padding: 15px;height: 15vh;}/*상단 왼쪽*/
+.cmenu {width: 28%; float:left; padding: 30px 50px 30px 50px; height: 15vh; position: fixed; right: 0px;}/*메뉴박스*/
+.c3 {width: 28%; float:left; padding: 30px 50px 30px 50px; height: 15vh;}/*메뉴박스 위치도우미*/
+
+aside {
+    color: #ffffff;
+    border: solid 2px rgba(255, 255, 255, 0);
+
+}
+aside li {
+    padding:10px;
+    margin: 5px;
+}
+.height {
+  height: 408px;
+}
+/*제목부분*/
+section#title {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+/*  text-align: center;*/
+  /*padding:100px 50px 100px 50px;*/
+  line-height: 160%;
+}
+
+section#title p {
+  margin-top: 3px;
+    font-size: 0.9em;
+}
+section#title h1 {
+  font-family: 'NanumSquare'
+    font-size: 1.4em;
+}
+
+/*간단 설명*/
+section.c_m_11 h1 {
+  padding: 10px;
+    font-size: 2.15em;
+
+}
+section.c_m_11 p {
+  padding-top: 2px;
+    font-size: 0.82em;
+    color: black;
+}
+
+section.c_m_4 h1 {
+  padding-bottom: 1px;
+    font-size: 1.1em;
+    color: #f7543e;
+}
+section.c_m_4 p {
+  margin-top: 20px;
+  padding-top: 1px;
+  line-height: 180%;
+    font-size: 0.9em;
+}
+
+section.c_m_2 h1 {
+  padding-bottom: 5px;
+    font-size: 1.1em;
+    color: #f7543e;
+}
+section.c_m_2 p {
+  margin-top: 1px;
+  padding-top: 1px;
+  line-height: 150%;
+    font-size: 0.9em;
+
+}
+
+.down1{ position:absolute; top:1000px;
+         margin-right: 0px;
+         margin-left: 7px;
+         margin-top: 0px;
+       }
+.down2{ position:absolute; top:1480px;
+                margin-left: 870px;
+                margin-top: 0px;
+              }
+
+
+
+
+
+</style>
+</head>
+
+<body>
+  <header>
+
+
+
+
+          <div id='logo'>
+              <a href='index.html'><img src='sl2.png' width='110' height='60'></a>
+
+              <nav id='menus'>
+
+              <ul id='main_menu'>
+                <a href="sub1.html"><li>빵?</li></a>
+                <a href="sub2.html"><li>올해의 빵</li></a>
+                <a href="sub3.html"><li>알쓸빵팁</li></a>
+                <a href="sub4.html"><li>전국 빵자랑</li></a>
+                <a href="sub5.html"><li>베이커리 추천</li></a>
+              </ul>
+              </nav>
+          </div>
+      </header>
+
+
+
+<aside class="c_m_10 height"><!--영상-->
+</aside>
+  <section class="c_m_9">
+
+    <iframe width="100%" height="650" src="https://www.youtube.com/embed/nfDIGPtdSvk" title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<div class="clear"></div>
+
+    <aside class="c_m_12"><!--간단 설명-->
+    </aside>
+      <section class="c_m_11">
+        <br>
+          <h1><span style=color:#ea5542>알</span>아두면 <span style=color:#ea5542>쓸</span> 데 있는<br><br><span style=color:#ea5542>빵</span> 고르는 꿀<span style=color:#ea5542>팁</span></h1>
+          <p>맛있는 빵을 고르는 7가지 팁에 대해 알아보자.</p>
+
+        </section>
+
+
+<div class="clear"></div>
+
+
+  <div class="down1"><img src="c44.png" width= "23%"></div>
+  <div class="down2"><img src="c11.png" width= "58%"></div>
+
+
+<br><br>
+    <section class="c_m_2">
+      <h1>✔ 보통 뒤에 진열되어 있는 빵이 신선한 빵!</h1>
+      <p>신선하지 않을수록 빨리 팔아야하기 때문에 앞에 놓음</p>
+      <br><br>
+      <h1>✔ 공장에서 나오는 빵일 경우 냉동실에 두었다가 <br>꺼내기 때문에 차가운 빵일수록 신선함</h1>
+      <p>빵집에서 만들지 않는 제품들은 모두 본사에서 냉동실에 있던것을 가져와서 녹여파는 것임</p>
+      <br><br>
+      <h1>✔ 파슬리가 뿌려있는 빵의 경우 파슬리 색이 진한 <br>초록색일수록 신선함 </h1>
+      <p>시간이 지날수록 파슬리는 연두-노랑빛으로 변색됨</p>
+      <br><br>
+      <h1>✔ 소세지가 들어있는 빵의 경우<br>소세지색이 분홍빛이 돌수록 신선한 빵</h1>
+      <p>소세지는 시간이 지날수록 갈색으로 변색됨</p>
+      <br><br>
+      <h1>✔ 바게트같이 단단한 빵은 바삭하고 단단할수록 신선함</h1>
+      <p>오래될수록 표면이 물렁해지니 겉면이 단단한 것이 신선함</p>
+      <br><br>
+      <h1>✔ 반대로 푹신한 식감의 빵들은 시간이 지날수록 표면이 굳으므로<br> 만져서 부드러운 빵을 고르자</h1>
+      <br>
+      <h1>✔ 같은 종류의 빵이 포장된 것과 안된 것이 있을 경우 <br>안된 것이 신선한 빵</h1>
+      <p>오래될수록 표면이 물렁해지니 겉면이 단단한 것이 신선함</p>
+      <br><br>
+      </section>
+
+<br><br>
+</body>
+</html>
